@@ -3,7 +3,7 @@
 
 在RViz內顯示 fanuc手臂檔案
 ```
-cd ~/ros2_ws
-git clone https://github.com/mattj23/lrmate-200id.git src/LRMate-200iD
+cd ~/ros2_ws/src/lrmate_200id
+ros2 launch lrmate_200id display.launch.py model:=urdf/LRMate-200iD.urdf
 ```
 
